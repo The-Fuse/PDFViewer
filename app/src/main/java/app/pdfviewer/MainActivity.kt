@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.google.firebase.auth.FirebaseAuth
 import com.karumi.dexter.MultiplePermissionsReport
 import com.karumi.dexter.PermissionToken
 import com.karumi.dexter.Dexter
@@ -20,6 +21,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        verifyuserloggedin()
         var url = "https://firebasestorage.googleapis.com/v0/b/webappquery.appspot.com/o/RohitKumar.pdf?alt=media&token=f2cdfca5-4e30-4b5d-810b-97750f1d09f2"
         Dexter.withActivity(this)
             .withPermissions(android.Manifest.permission.READ_EXTERNAL_STORAGE,android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
@@ -63,5 +65,12 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("FileUri",selectedpdf.toString())
             startActivity(intent)
         }
+    }
+    private fun verifyuserloggedin(){
+        val uid = FirebaseAuth.getInstance().uid
+        if (uid== null){
+            val intent = Intent(this,Registration::class.java)
+            intent.flags= Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
+            startActivity(intent)}
     }
 }

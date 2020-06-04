@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "732021946122",
+    "firebase_url": "https://pdfviewer-dbcd2.firebaseio.com",
+    "project_id": "pdfviewer-dbcd2",
+    "storage_bucket": "pdfviewer-dbcd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732021946122:android:f9db31fad634b22ce76cf3",
+        "android_client_info": {
+          "package_name": "app.pdfviewer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732021946122-su2eehpc2kmrrtifg7vtsmmb42fc5vbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV19WuHA1MR0v9BDd6JlsIu-fqBrK13Xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732021946122-su2eehpc2kmrrtifg7vtsmmb42fc5vbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

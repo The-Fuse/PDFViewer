@@ -1,5 +1,3 @@
-<p align="center">
- <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="Github Readme Stats" />
 
 # PDFViewer
 PDF VIEWER APP FOR READING PDF FROM ASSETS ,STORAGE AND INTERNET.
@@ -14,17 +12,6 @@ PDF VIEWER APP FOR READING PDF FROM ASSETS ,STORAGE AND INTERNET.
 ## Dextro 
 
 ## File loader 
-
-<p align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=The-Fuse&&show_icons=true&theme=radical" alt="Rohit's Github Stats">
-</p
-
- ![visitors](https://visitor-badge.laobi.icu/badge?page_id=The-Fuse.The-Fuse)
- 
-   <img src='https://codestats-readme.wegfan.cn/history-graph/WEGFan?width=850&height=300&timezone=08:00&history_days=21&max_languages=9&language_colors=["3e4053","f15854","5da5da","faa43a","60bd68","f17cb0","b2912f","decf3f","b276b2","808080"]' alt="WEGFan's Code::Stats history graph" />
-
-
-[![HitCount](http://hits.dwyl.com/{The-Fuse}/{Fyyur_Artist_booking_site}.svg)](http://hits.dwyl.com/{The-Fuse}/{Fyyur_Artist_booking_site})
 
 ### Languages and Tools :computer:
 
